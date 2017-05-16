@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>     
+    <class name="com.mercury.mc.persistence.model.Interest" table="interest">  
+        <id name="state_id" column="state_id"></id> 
+        <property name="state" column="state"/>
+        <property name="fix_30" column="fix_30"/>
+        <property name="fix_20" column="fix_20"/>
+        <property name="fix_15" column="fix_15"/>
+        <property name="arm_5" column="arm_5"/>
+        <property name="arm_7" column="arm_7"/>
+        <property name="arm_10" column="arm_10"/>
+    </class>
+</hibernate-mapping>
